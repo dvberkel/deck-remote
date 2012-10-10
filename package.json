@@ -1,0 +1,35 @@
+{
+    "name": "deck-remote-server",
+    "preferGlobal": "false",
+    "version": "0.0.0",
+    "main": "./bin/deck-remote-server",
+    "author": "Daan van Berkel <daan.v.berkel.1980@gmail.com>",
+    "description": "Backend to remote control a deck.js presentation via a REST interface",
+    "contributors": [
+	{ "name": "Daan van Berkel", "email": "daan.v.berkel.1980@gmail.com" }
+    ],
+    "bin" : {
+	"deck-remote-server": "./bin/deck-remote-server"
+    },
+    "scripts" : {
+	"start": "node ./bin/deck-remote-server",
+	"test": "node_modules/.bin/mocha --reporter spec"
+    },
+    "main": "./bin/deck-remote-server",
+    "repository": { "type": "git", "url": "https://github.com/dvberkel/deck-remote.git" },
+    "keywords" : [
+	"http",
+	"server",
+	"deck"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+	"mocha": "1.5.0"
+    },
+    "license": "MIT",
+    "engines": {
+	"node": ">=0.9",
+	"npm": ">=1.1"
+    }
+}
