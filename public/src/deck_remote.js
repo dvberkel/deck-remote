@@ -1,3 +1,3 @@
-var deck_remote = (function(){
+var dr = (function(){
     return { "version" : "0.0.0" }
 })();
