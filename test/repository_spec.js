@@ -26,4 +26,12 @@ describe("A Repository", function(){
 	
 	assert.ok(repo.retrieve("unknown id") === undefined);
     });
+
+    it("should store any object under forced id", function(){
+	var repo = repository();
+
+	var id = repo.store({ "any" : "object" }, 37);
+	
+	assert.deepEqual(repo.retrieve(id), { "any" : "object", "_id" : 37 });
+    });
 });
