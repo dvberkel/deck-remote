@@ -6,6 +6,7 @@ var app = express();
 
 app.configure(function(){
     app.set("port", process.env.PORT || 3000);
+    app.use("/static", express.static(__dirname + "/public"));
 });
 
 app.configure("development", function(){
