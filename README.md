@@ -13,6 +13,12 @@ dependencies. To download all the dependencies execute
 
     npm install
 
+Furthermore, the project relies on [submodules][6]. Run the following
+commands to correctly setup the project.
+
+    git submodule init
+    git submodule update
+
 Development
 -----------
 
