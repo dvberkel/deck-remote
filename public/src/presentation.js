@@ -10,7 +10,7 @@
     });
 
     var ShortPresentationView = Backbone.View.extend({
-	template : _.template("<li><%= _id %></li>"),
+	template : _.template("<li><a href='presentation.html?id=<%= _id %>'><%= _id %></a></li>"),
 
 	initialize : function(){
 	    this.render();

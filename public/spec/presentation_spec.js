@@ -71,6 +71,12 @@ describe("PresentationsView", function(){
     });
     
     describe("a list item", function(){
+	it("should hold a link to id", function(){
+	    new dr.PresentationsView({ "el" : $("#presentations"), "model" : presentations });
+
+	    expect($("#presentations ul li").first()).toContain("a");
+	});
+
 	it("should hold the id", function(){
 	    new dr.PresentationsView({ "el" : $("#presentations"), "model" : presentations });
 
