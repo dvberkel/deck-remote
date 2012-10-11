@@ -10,3 +10,6 @@
 [submodule "public/lib/jquery-url-parser"]
 	path = public/lib/jquery-url-parser
 	url = git://github.com/allmarkedup/jQuery-URL-Parser.git
+[submodule "public/lib/deck"]
+	path = public/lib/deck
+	url = git://github.com/dvberkel/deck.js.git
