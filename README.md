@@ -8,7 +8,7 @@ control the progress through the presentation.
 Environment
 -----------
 
-This is a [node.js][2] project and are using [npm][3] to handle our
+This is a [node.js][2] project and it is using [npm][3] to handle the
 dependencies. To download all the dependencies execute
 
     npm install
@@ -23,7 +23,7 @@ Development
 -----------
 
 While developing [nodemon][5] is an indispensable tool. It restarts
-the application when underlying are files are changed. To start the
+the application when underlying files are changed. To start the
 nodemon serving the deck remote server run
 
     node_modules/.bin/nodemon server.js
@@ -43,3 +43,4 @@ Execute the following command to run all the tests
 [3]: https://npmjs.org/ "Homepage for npm"
 [4]: http://visionmedia.github.com/mocha/ "Homepage for Mocha"
 [5]: https://github.com/remy/nodemon "nodemon on GitHub"
+[6]: http://git-scm.com/book/en/Git-Tools-Submodules "Submodule documentation for git"
