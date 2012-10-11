@@ -78,3 +78,29 @@ describe("PresentationsView", function(){
 	});
     });
 });
+
+describe("A PresentationView", function(){
+    var presentation;
+
+    beforeEach(function(){
+	presentation = new dr.Presentation({ "_id" : 1 });
+    });
+
+    beforeEach(function(){
+	loadFixtures("presentation-fixture.html");
+    });
+
+    it("should create a span", function(){
+	new dr.PresentationView({ el : $("#presentations"), model: presentation });
+
+	expect($("#presentations")).toContain("span");
+    });
+
+    describe("span", function(){
+	it("should hold id", function(){
+	    new dr.PresentationView({ el : $("#presentations"), model: presentation });
+
+	    expect($("#presentations span")).toHaveText("1");
+	});
+    });
+});

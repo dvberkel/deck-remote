@@ -15,3 +15,8 @@ exports.add = function(req, res){
     var id = presentations.store(presentation);
     res.json({ "id" : id });
 }
+
+exports.specific = function(req, res){
+    var presentation = presentations.retrieve(req.params.id) || {};
+    res.json(presentation);
+}
