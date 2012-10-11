@@ -6,6 +6,7 @@ var app = express();
 
 app.configure(function(){
     app.set("port", process.env.PORT || 3000);
+    app.set(express.bodyParser());
     app.use("/static", express.static(__dirname + "/public"));
 });
 
@@ -16,6 +17,7 @@ app.configure("development", function(){
 app.get("/", routes.all);
 app.post("/", routes.add);
 app.get("/:id", routes.specific);
+app.post("/:id", routes.command);
 
 http.createServer(app).listen(app.get("port"), function(){
     console.log("Deck Remote Server listening on port " + app.get("port"));
