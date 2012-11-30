@@ -23,6 +23,6 @@ exports.specific = function(req, res){
 
 exports.command = function(req, res){
     var presentation = presentations.retrieve(req.params.id) || {};
-    console.log(req.query);
+    console.log(req.body);
     res.json({ "status" : "ok" })
 }
