@@ -6,7 +6,7 @@ var app = express();
 
 app.configure(function(){
     app.set("port", process.env.PORT || 3000);
-    app.set(express.bodyParser());
+    app.use(express.bodyParser());
     app.use("/static", express.static(__dirname + "/public"));
     app.use("/presentation", express.static(__dirname + "/presentation"));
 });
