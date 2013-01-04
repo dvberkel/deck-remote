@@ -1,6 +1,9 @@
 Deck Remote
 ===========
 
+If acquinted myself with the following framework [controldeck.js][7].
+I recommend it whole heartily.
+
 [deck.js][1] is a framework for creating modern HTML
 presentations. This project creates a plugin for deck to remote
 control the progress through the presentation.
@@ -44,3 +47,4 @@ Execute the following command to run all the tests
 [4]: http://visionmedia.github.com/mocha/ "Homepage for Mocha"
 [5]: https://github.com/remy/nodemon "nodemon on GitHub"
 [6]: http://git-scm.com/book/en/Git-Tools-Submodules "Submodule documentation for git"
+[7]: http://dfcb.github.com/controldeck.js/ "Controldeck.js homepage"
