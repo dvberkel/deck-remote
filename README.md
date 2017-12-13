@@ -44,7 +44,7 @@ Execute the following command to run all the tests
 [1]: http://imakewebthings.com/deck.js/ "Homepage for deck.js"
 [2]: http://nodejs.org/ "Homepage for node.js"
 [3]: https://npmjs.org/ "Homepage for npm"
-[4]: http://visionmedia.github.com/mocha/ "Homepage for Mocha"
+[4]: http://mochajs.org/ "Homepage for Mocha"
 [5]: https://github.com/remy/nodemon "nodemon on GitHub"
 [6]: http://git-scm.com/book/en/Git-Tools-Submodules "Submodule documentation for git"
 [7]: http://dfcb.github.com/controldeck.js/ "Controldeck.js homepage"
