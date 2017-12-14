@@ -47,4 +47,4 @@ Execute the following command to run all the tests
 [4]: http://visionmedia.github.com/mocha/ "Homepage for Mocha"
 [5]: https://github.com/remy/nodemon "nodemon on GitHub"
 [6]: http://git-scm.com/book/en/Git-Tools-Submodules "Submodule documentation for git"
-[7]: http://dfcb.github.com/controldeck.js/ "Controldeck.js homepage"
+[7]: http://johnpolacek.github.io/controldeck.js/ "Controldeck.js homepage"
