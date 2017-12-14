@@ -1,7 +1,7 @@
 Deck Remote
 ===========
 
-If acquinted myself with the following framework [controldeck.js][7].
+**deprecated** If acquinted myself with the following framework [controldeck.js][7].
 I recommend it whole heartily.
 
 [deck.js][1] is a framework for creating modern HTML
